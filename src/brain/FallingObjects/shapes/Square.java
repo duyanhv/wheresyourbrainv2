@@ -1,12 +1,10 @@
 package brain.FallingObjects.shapes;
 
 
-import bases.Animation;
-import bases.GameObject;
-import bases.ImageRenderer;
-import bases.Utils;
+import bases.*;
 import brain.FallingObjects.FallingObjects;
 import brain.background.ParticleEffect;
+import brain.background.ParticleEffect2;
 import brain.background.Score;
 import brain.playershape.PlayerLeftShape;
 import brain.playershape.PlayerRightShape;
@@ -15,7 +13,7 @@ import java.awt.*;
 import java.util.Random;
 
 public class Square extends FallingObjects {
-
+    FrameCounter frameCounter = new FrameCounter(30);
     public final int type = 1;
 
     public Square(){
@@ -37,17 +35,30 @@ public class Square extends FallingObjects {
     public void run() {
         super.run();
         collide();
+
+
     }
 
-    public void addParticle(boolean bool){
+    public void addParticle(){
+//        GameObject.add(new ParticleEffect2(this.position.x, this.position.y));
 
+        for (float angle = -30; angle <= 360; angle += 30){
+            ParticleEffect2 pe = GameObject.recycle(ParticleEffect2.class);
+            pe.position.set(this.position);
+            Vector2D velocity = Vector2D.DOWN.rotate(angle).scale(-5);
+            pe.velocity.set(velocity);
+            pe.renderer = new Animation(
+                    Utils.loadImage(""),
+                    Utils.loadImage(""),
+                    Utils.loadImage(""),
+                    Utils.loadImage(""),
+                    Utils.loadImage(""),
+                    Utils.loadImage("")
+            );
+            GameObject.add(pe);
 
+        }
 
-        int size = (int) (Math.random()*12);
-//        int life = (int) Math.random()*(120)+380;
-        int life =  100;
-
-        GameObject.add(new ParticleEffect(position.x,position.y,size,life, Color.pink,bool));
 
     }
 
@@ -56,10 +67,7 @@ public class Square extends FallingObjects {
             if(this.hitBox.collideWith(PlayerLeftShape.boxCollider) && this.type == PlayerLeftShape.currentType){
                 Score.addScore(1);
 
-                addParticle(true);addParticle(false);addParticle(true);
-                addParticle(false);addParticle(true);addParticle(false);
-                addParticle(true);addParticle(false);addParticle(true);
-                addParticle(false);addParticle(true);addParticle(false);
+                addParticle();
                 GameObject.remove(this);
             }
         }
@@ -67,10 +75,7 @@ public class Square extends FallingObjects {
             if(this.hitBox.collideWith(PlayerRightShape.boxCollider) && this.type == PlayerRightShape.currentType ){
                 Score.addScore(1);
 
-                addParticle(true);addParticle(false);addParticle(true);
-                addParticle(false);addParticle(true);addParticle(false);
-                addParticle(true);addParticle(false);addParticle(true);
-                addParticle(false);addParticle(true);addParticle(false);
+                addParticle();
                 GameObject.remove(this);
             }
         }

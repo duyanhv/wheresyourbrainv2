@@ -1,6 +1,7 @@
 package brain.background;
 
 import bases.GameObject;
+import bases.Vector2D;
 import brain.FallingObjects.FallingObjects;
 
 import java.awt.*;
@@ -11,6 +12,8 @@ import java.util.Random;
  * Created by duyanh on 11/4/17.
  */
 public class ParticleEffect extends GameObject {
+    public Vector2D velocity;
+
     public float x;
     public float y;
 
@@ -24,22 +27,22 @@ public class ParticleEffect extends GameObject {
 
     public Color color;
 
-    public boolean bool;
+//    public boolean bool;
 
-    public int particles;
 
-    public float radius = 0.7f;
-    public float angle;
 
-    public ParticleEffect(float x, float y, float size, float life, Color color,boolean bool) {
+    public ParticleEffect(float x, float y, float dx, float dy, float size, float life, Color color) {
         this.x = x;
         this.y = y;
+        this.dx = dx;
+        this.dy = dy;
         this.size = size;
         this.life = life;
         this.color = color;
-        this.bool = bool;
-        generateAngle(this.bool);
-        particles = 50;
+
+//        generateAngle(this.bool);
+
+
     }
     public ParticleEffect(){
 
@@ -47,17 +50,10 @@ public class ParticleEffect extends GameObject {
 
     public void generateAngle(boolean bool){
         Random rdm = new Random();
-        if(bool){
+        if(bool) {
 
 
-            for(int i = 0; i < particles; i++){
-                angle = (float) (2 * Math.PI * i/particles);
 
-                dx = (float) (Math.cos(angle) * radius);
-
-                dy = (float) (Math.sin(angle) * radius);
-
-            }
 
 //            dx = (int) ((Math.random())*5);
 //            dy = (int) ((Math.random())*5);
@@ -82,7 +78,7 @@ public class ParticleEffect extends GameObject {
 
         life--;
 
-        if(life <= 0 || dx == 0 || dy == 0){
+        if(life <= 0){
             return true;
         }
 
@@ -95,6 +91,7 @@ public class ParticleEffect extends GameObject {
     @Override
     public void run() {
         super.run();
+
         if(update()){
             GameObject.remove(this);
         }
