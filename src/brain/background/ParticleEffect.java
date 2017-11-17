@@ -44,10 +44,7 @@ public class ParticleEffect extends GameObject {
 
         life--;
 
-        if(life <= 0){
-            return true;
-        }
-        if(dx == 0 || dy == 0){
+        if(life <= 0 || dx == 0 || dy == 0){
             return true;
         }
 

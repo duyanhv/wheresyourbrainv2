@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97d1593c-2818-4818-8710-66c49e4f9003" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Program.java" afterPath="$PROJECT_DIR$/src/Program.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Circle.java" afterPath="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Circle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Diamond.java" afterPath="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Diamond.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Square.java" afterPath="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Square.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Triangle.java" afterPath="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Triangle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/background/ParticleEffect.java" afterPath="$PROJECT_DIR$/src/brain/background/ParticleEffect.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -113,8 +109,8 @@
       <file leaf-file-name="ParticleEffect.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/brain/background/ParticleEffect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="192">
+              <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -759,8 +755,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/brain/background/ParticleEffect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="192">
+          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
           <folding />
         </state>
       </provider>
