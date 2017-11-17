@@ -38,24 +38,12 @@ public class Diamond extends FallingObjects {
     }
 
     public void addParticle(boolean bool){
-        Random rdm = new Random();
 
-        float dx,dy;
-        if(bool){
-//            dx = (int) ((Math.random())*5);
-//            dy = (int) ((Math.random())*5);
-            dx = (int) ((rdm.nextInt(10) - 5));
-            dy = (int) ((rdm.nextInt(10) - 5));
-        }
-        else{
-            dx = (int) ((rdm.nextInt(10) - 5));
-            dy = (int) ((rdm.nextInt(10) - 5));
-        }
         int size = (int) (Math.random()*12);
 //        int life = (int) Math.random()*(120)+380;
         int life =  100;
 
-        GameObject.add(new ParticleEffect(position.x,position.y,dx,dy,size,life, Color.magenta));
+        GameObject.add(new ParticleEffect(position.x,position.y,size,life, Color.magenta,bool));
 
 
 

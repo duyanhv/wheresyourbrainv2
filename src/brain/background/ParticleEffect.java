@@ -24,20 +24,42 @@ public class ParticleEffect extends GameObject {
 
     public Color color;
 
-    public ParticleEffect(float x, float y, float dx, float dy, float size, float life, Color color) {
+    public boolean bool;
+
+    public ParticleEffect(float x, float y, float size, float life, Color color,boolean bool) {
         this.x = x;
         this.y = y;
-        this.dx = dx;
-        this.dy = dy;
         this.size = size;
         this.life = life;
         this.color = color;
+        this.bool = bool;
+        generateAngle(this.bool);
     }
     public ParticleEffect(){
 
     }
 
+    public void generateAngle(boolean bool){
+        Random rdm = new Random();
+        if(bool){
+
+//            dx = (int) ((Math.random())*5);
+//            dy = (int) ((Math.random())*5);
+            dx =  ((rdm.nextInt(10) - 5));
+            dy =  ((rdm.nextInt(10) - 5));
+        }
+        else{
+            dx =  ((rdm.nextInt(10) - 5));
+            dy =  ((rdm.nextInt(10) - 5));
+        }
+    }
+
     public boolean update(){
+
+
+//        float dx,dy;
+
+
         x += dx;
 
         y += dy;
