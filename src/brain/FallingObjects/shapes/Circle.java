@@ -14,6 +14,7 @@ import java.util.Random;
 public class Circle extends FallingObjects {
 
     public final int type = 0;
+    ParticleEffect pe;
 
     public Circle(){
         super();
@@ -28,6 +29,7 @@ public class Circle extends FallingObjects {
                 Utils.loadImage("assets/shape/circle6.png")
 
         );
+        pe = new ParticleEffect();
     }
 
     @Override
@@ -43,18 +45,20 @@ public class Circle extends FallingObjects {
         if(bool){
 //            dx = (int) ((Math.random())*5);
 //            dy = (int) ((Math.random())*5);
-            dx = (int) ((rdm.nextInt(10) - 5));
-            dy = (int) ((rdm.nextInt(10) - 5));
+            dx =  ((rdm.nextInt(10) - 5));
+            dy =  ((rdm.nextInt(10) - 5));
         }
         else{
-            dx = (int) ((rdm.nextInt(10) - 5));
-            dy = (int) ((rdm.nextInt(10) - 5));
+            dx =  ((rdm.nextInt(10) - 5));
+            dy =  ((rdm.nextInt(10) - 5));
         }
         int size = (int) (Math.random()*12);
 //        int life = (int) Math.random()*(120)+380;
         int life =  100;
 
+
         GameObject.add(new ParticleEffect(position.x,position.y,dx,dy,size,life, Color.cyan));
+
 
 
     }

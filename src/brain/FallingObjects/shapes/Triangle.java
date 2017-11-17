@@ -57,6 +57,7 @@ public class Triangle extends FallingObjects {
         GameObject.add(new ParticleEffect(position.x,position.y,dx,dy,size,life, Color.cyan));
 
 
+
     }
 
 

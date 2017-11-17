@@ -53,12 +53,13 @@ public class Square extends FallingObjects {
             dx = (int) ((rdm.nextInt(10) - 5));
             dy = (int) ((rdm.nextInt(10) - 5));
         }
+
+
         int size = (int) (Math.random()*12);
 //        int life = (int) Math.random()*(120)+380;
         int life =  100;
 
         GameObject.add(new ParticleEffect(position.x,position.y,dx,dy,size,life, Color.cyan));
-
 
     }
 

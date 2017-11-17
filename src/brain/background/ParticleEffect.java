@@ -5,6 +5,7 @@ import brain.FallingObjects.FallingObjects;
 
 import java.awt.*;
 import java.awt.geom.Rectangle2D;
+import java.util.Random;
 
 /**
  * Created by duyanh on 11/4/17.
@@ -32,6 +33,9 @@ public class ParticleEffect extends GameObject {
         this.life = life;
         this.color = color;
     }
+    public ParticleEffect(){
+
+    }
 
     public boolean update(){
         x += dx;
@@ -43,15 +47,22 @@ public class ParticleEffect extends GameObject {
         if(life <= 0){
             return true;
         }
+        if(dx == 0 || dy == 0){
+            return true;
+        }
 
         return false;
 
     }
 
+
+
     @Override
     public void run() {
         super.run();
-        update();
+        if(update()){
+            GameObject.remove(this);
+        }
     }
 
     @Override

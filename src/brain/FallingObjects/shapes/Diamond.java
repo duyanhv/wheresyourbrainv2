@@ -58,6 +58,9 @@ public class Diamond extends FallingObjects {
         GameObject.add(new ParticleEffect(position.x,position.y,dx,dy,size,life, Color.cyan));
 
 
+
+
+
     }
 
     public void collide(){
