@@ -26,6 +26,11 @@ public class ParticleEffect extends GameObject {
 
     public boolean bool;
 
+    public int particles;
+
+    public float radius = 0.7f;
+    public float angle;
+
     public ParticleEffect(float x, float y, float size, float life, Color color,boolean bool) {
         this.x = x;
         this.y = y;
@@ -34,6 +39,7 @@ public class ParticleEffect extends GameObject {
         this.color = color;
         this.bool = bool;
         generateAngle(this.bool);
+        particles = 50;
     }
     public ParticleEffect(){
 
@@ -43,15 +49,25 @@ public class ParticleEffect extends GameObject {
         Random rdm = new Random();
         if(bool){
 
+
+            for(int i = 0; i < particles; i++){
+                angle = (float) (2 * Math.PI * i/particles);
+
+                dx = (float) (Math.cos(angle) * radius);
+
+                dy = (float) (Math.sin(angle) * radius);
+
+            }
+
 //            dx = (int) ((Math.random())*5);
 //            dy = (int) ((Math.random())*5);
-            dx =  ((rdm.nextInt(10) - 5));
-            dy =  ((rdm.nextInt(10) - 5));
+//            dx =  ((rdm.nextInt(10) - 5));
+//            dy =  ((rdm.nextInt(10) - 5));
         }
-        else{
-            dx =  ((rdm.nextInt(10) - 5));
-            dy =  ((rdm.nextInt(10) - 5));
-        }
+//        else{
+//            dx =  ((rdm.nextInt(10) - 5));
+//            dy =  ((rdm.nextInt(10) - 5));
+//        }
     }
 
     public boolean update(){
