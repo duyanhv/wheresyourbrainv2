@@ -54,7 +54,7 @@ public class Triangle extends FallingObjects {
 //        int life = (int) Math.random()*(120)+380;
         int life =  100;
 
-        GameObject.add(new ParticleEffect(position.x,position.y,dx,dy,size,life, Color.cyan));
+        GameObject.add(new ParticleEffect(position.x,position.y,dx,dy,size,life, Color.blue));
 
 
 

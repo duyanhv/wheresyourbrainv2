@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97d1593c-2818-4818-8710-66c49e4f9003" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/background/ParticleEffect.java" afterPath="$PROJECT_DIR$/src/brain/background/ParticleEffect.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Circle.java" afterPath="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Circle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Diamond.java" afterPath="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Diamond.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Square.java" afterPath="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Square.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Triangle.java" afterPath="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Triangle.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,16 +18,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SpawnerManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/brain/FallingObjects/SpawnerManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FallingObjects.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/brain/FallingObjects/FallingObjects.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -39,28 +31,49 @@
       <file leaf-file-name="Circle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/brain/FallingObjects/shapes/Circle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="56" column="22" lean-forward="false" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+            <state relative-caret-position="504">
+              <caret line="59" column="93" lean-forward="false" selection-start-line="59" selection-start-column="93" selection-end-line="59" selection-end-column="93" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Diamond.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="circle3.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/shape/circle3.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Diamond.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/brain/FallingObjects/shapes/Diamond.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="55" column="23" lean-forward="false" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+            <state relative-caret-position="332">
+              <caret line="57" column="94" lean-forward="false" selection-start-line="57" selection-start-column="94" selection-end-line="57" selection-end-column="94" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Diamond6.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/shape/Diamond6.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Diamond4.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/shape/Diamond4.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Square.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/brain/FallingObjects/shapes/Square.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="59" column="22" lean-forward="false" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+            <state relative-caret-position="418">
+              <caret line="61" column="91" lean-forward="false" selection-start-line="61" selection-start-column="91" selection-end-line="61" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -69,28 +82,8 @@
       <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/brain/FallingObjects/shapes/Triangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="60" column="5" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Score.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/brain/background/Score.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LightEffect_Am3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/brain/background/LightEffect_Am3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="347">
+              <caret line="56" column="91" lean-forward="false" selection-start-line="56" selection-start-column="91" selection-end-line="56" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -106,10 +99,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParticleEffect.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ParticleEffect.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/brain/background/ParticleEffect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
+            <state relative-caret-position="445">
               <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
               <folding />
             </state>
@@ -130,11 +123,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Program.java" />
-        <option value="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Circle.java" />
-        <option value="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Diamond.java" />
+        <option value="$PROJECT_DIR$/src/brain/background/ParticleEffect.java" />
         <option value="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Square.java" />
         <option value="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Triangle.java" />
-        <option value="$PROJECT_DIR$/src/brain/background/ParticleEffect.java" />
+        <option value="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Circle.java" />
+        <option value="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Diamond.java" />
       </list>
     </option>
   </component>
@@ -272,6 +265,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="background" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Where-your-brain_final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Where-your-brain_final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Where-your-brain_final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Where-your-brain_final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shape" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -721,42 +746,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/brain/FallingObjects/shapes/Circle.java">
+    <entry file="file://$PROJECT_DIR$/src/brain/background/ParticleEffect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="56" column="22" lean-forward="false" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+        <state relative-caret-position="445">
+          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/brain/FallingObjects/shapes/Diamond.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="55" column="23" lean-forward="false" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/brain/FallingObjects/shapes/Triangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/assets/shape/Rectangle2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/brain/FallingObjects/shapes/Square.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="59" column="22" lean-forward="false" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+        <state relative-caret-position="418">
+          <caret line="61" column="91" lean-forward="false" selection-start-line="61" selection-start-column="91" selection-end-line="61" selection-end-column="91" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/brain/background/ParticleEffect.java">
+    <entry file="file://$PROJECT_DIR$/assets/shape/Triangle1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/brain/FallingObjects/shapes/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        <state relative-caret-position="347">
+          <caret line="56" column="91" lean-forward="false" selection-start-line="56" selection-start-column="91" selection-end-line="56" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/shape/Diamond4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/shape/Diamond6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/brain/FallingObjects/shapes/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="59" column="93" lean-forward="false" selection-start-line="59" selection-start-column="93" selection-end-line="59" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/shape/circle3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/brain/FallingObjects/shapes/Diamond.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="57" column="94" lean-forward="false" selection-start-line="57" selection-start-column="94" selection-end-line="57" selection-end-column="94" />
           <folding />
         </state>
       </provider>

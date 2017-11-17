@@ -57,7 +57,7 @@ public class Circle extends FallingObjects {
         int life =  100;
 
 
-        GameObject.add(new ParticleEffect(position.x,position.y,dx,dy,size,life, Color.cyan));
+        GameObject.add(new ParticleEffect(position.x,position.y,dx,dy,size,life, Color.yellow));
 
 
 
