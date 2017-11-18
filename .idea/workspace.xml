@@ -2,12 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97d1593c-2818-4818-8710-66c49e4f9003" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/brain/GameFrezzer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/brain/fallingshape/LeftShape.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/brain/fallingshape/LeftSpawner.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/brain/fallingshape/RightShape.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/brain/fallingshape/RightSpawner.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/brain/playershape/Player.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/background/life.png" afterPath="$PROJECT_DIR$/assets/images/background/life.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/shape/Triangle.png" afterPath="$PROJECT_DIR$/assets/shape/Triangle.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/shape/Triangle1.png" afterPath="$PROJECT_DIR$/assets/shape/Triangle1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/shape/Triangle2.png" afterPath="$PROJECT_DIR$/assets/shape/Triangle2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/shape/Triangle3.png" afterPath="$PROJECT_DIR$/assets/shape/Triangle3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/shape/Triangle4.png" afterPath="$PROJECT_DIR$/assets/shape/Triangle4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/shape/Triangle5.png" afterPath="$PROJECT_DIR$/assets/shape/Triangle5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final/Program.class" afterPath="$PROJECT_DIR$/out/production/final/Program.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final/brain/FallingObjects/FallingObjects.class" afterPath="$PROJECT_DIR$/out/production/final/brain/FallingObjects/FallingObjects.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final/brain/FallingObjects/Spawner.class" afterPath="$PROJECT_DIR$/out/production/final/brain/FallingObjects/Spawner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final/brain/FallingObjects/shapes/Circle.class" afterPath="$PROJECT_DIR$/out/production/final/brain/FallingObjects/shapes/Circle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final/brain/FallingObjects/shapes/Diamond.class" afterPath="$PROJECT_DIR$/out/production/final/brain/FallingObjects/shapes/Diamond.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final/brain/FallingObjects/shapes/Square.class" afterPath="$PROJECT_DIR$/out/production/final/brain/FallingObjects/shapes/Square.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final/brain/FallingObjects/shapes/Triangle.class" afterPath="$PROJECT_DIR$/out/production/final/brain/FallingObjects/shapes/Triangle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final/brain/background/LifesOfPlayer.class" afterPath="$PROJECT_DIR$/out/production/final/brain/background/LifesOfPlayer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final/brain/background/ParticleEffect.class" afterPath="$PROJECT_DIR$/out/production/final/brain/background/ParticleEffect.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final/brain/background/ParticleEffect2.class" afterPath="$PROJECT_DIR$/out/production/final/brain/background/ParticleEffect2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final/brain/background/Score.class" afterPath="$PROJECT_DIR$/out/production/final/brain/background/Score.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final/brain/input/InputManager.class" afterPath="$PROJECT_DIR$/out/production/final/brain/input/InputManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final/brain/scenes/GameOverScene.class" afterPath="$PROJECT_DIR$/out/production/final/brain/scenes/GameOverScene.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final/brain/traps/ShapeShifting.class" afterPath="$PROJECT_DIR$/out/production/final/brain/traps/ShapeShifting.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/final/brain/traps/SpeedUp.class" afterPath="$PROJECT_DIR$/out/production/final/brain/traps/SpeedUp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GameCanvas.java" afterPath="$PROJECT_DIR$/src/GameCanvas.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GameWindow.java" afterPath="$PROJECT_DIR$/src/GameWindow.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Program.java" afterPath="$PROJECT_DIR$/src/Program.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bases/Animation.java" afterPath="$PROJECT_DIR$/src/bases/Animation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bases/FrameCounter.java" afterPath="$PROJECT_DIR$/src/bases/FrameCounter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bases/GameController.java" afterPath="$PROJECT_DIR$/src/bases/GameController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bases/GameObject.java" afterPath="$PROJECT_DIR$/src/bases/GameObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bases/ImageRenderer.java" afterPath="$PROJECT_DIR$/src/bases/ImageRenderer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bases/Renderer.java" afterPath="$PROJECT_DIR$/src/bases/Renderer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bases/Utils.java" afterPath="$PROJECT_DIR$/src/bases/Utils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bases/Vector2D.java" afterPath="$PROJECT_DIR$/src/bases/Vector2D.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bases/physics/BoxCollider.java" afterPath="$PROJECT_DIR$/src/bases/physics/BoxCollider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bases/physics/PhysicsBody.java" afterPath="$PROJECT_DIR$/src/bases/physics/PhysicsBody.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/BackGround.java" afterPath="$PROJECT_DIR$/src/brain/BackGround.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/FallingObjects/FallingObjects.java" afterPath="$PROJECT_DIR$/src/brain/FallingObjects/FallingObjects.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/FallingObjects/Spawner.java" afterPath="$PROJECT_DIR$/src/brain/FallingObjects/Spawner.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Circle.java" afterPath="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Circle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Diamond.java" afterPath="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Diamond.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Square.java" afterPath="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Square.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Triangle.java" afterPath="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Triangle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/background/ParticleEffect2.java" afterPath="$PROJECT_DIR$/src/brain/background/ParticleEffect2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/background/BackGround.java" afterPath="$PROJECT_DIR$/src/brain/background/BackGround.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/background/LightEffect1.java" afterPath="$PROJECT_DIR$/src/brain/background/LightEffect1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/background/LightEffect2.java" afterPath="$PROJECT_DIR$/src/brain/background/LightEffect2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/background/LightEffect3.java" afterPath="$PROJECT_DIR$/src/brain/background/LightEffect3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/background/LightEffect4.java" afterPath="$PROJECT_DIR$/src/brain/background/LightEffect4.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/background/LightEffect5.java" afterPath="$PROJECT_DIR$/src/brain/background/LightEffect5.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/background/LightEffect_Am2.java" afterPath="$PROJECT_DIR$/src/brain/background/LightEffect_Am2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/background/LightEffect_Am3.java" afterPath="$PROJECT_DIR$/src/brain/background/LightEffect_Am3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/background/ParticleEffect.java" afterPath="$PROJECT_DIR$/src/brain/background/ParticleEffect.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/background/Score.java" afterPath="$PROJECT_DIR$/src/brain/background/Score.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/input/InputManager.java" afterPath="$PROJECT_DIR$/src/brain/input/InputManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/playershape/PlayerLeftShape.java" afterPath="$PROJECT_DIR$/src/brain/playershape/PlayerLeftShape.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/brain/playershape/PlayerRightShape.java" afterPath="$PROJECT_DIR$/src/brain/playershape/PlayerRightShape.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,24 +76,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ParticleEffect2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/brain/background/ParticleEffect2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-107">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <marker date="1510974123244" expanded="false" signature="989:1248" ph="//..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Circle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/brain/FallingObjects/shapes/Circle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="-6">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding>
+                <marker date="1510956578275" expanded="true" signature="2440:2512" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,9 +91,11 @@
       <file leaf-file-name="Diamond.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/brain/FallingObjects/shapes/Diamond.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="53" column="73" lean-forward="false" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
-              <folding />
+            <state relative-caret-position="680">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding>
+                <marker date="1510956578276" expanded="true" signature="2357:2429" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,9 +103,11 @@
       <file leaf-file-name="Square.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/brain/FallingObjects/shapes/Square.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="57" column="31" lean-forward="false" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="544">
+              <caret line="58" column="9" lean-forward="false" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+              <folding>
+                <marker date="1510956578278" expanded="true" signature="2521:2594" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,18 +115,69 @@
       <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/brain/FallingObjects/shapes/Triangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="51" column="74" lean-forward="false" selection-start-line="51" selection-start-column="74" selection-end-line="51" selection-end-column="74" />
+            <state relative-caret-position="446">
+              <caret line="46" column="9" lean-forward="false" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+              <folding>
+                <marker date="1510956578281" expanded="true" signature="2525:2557" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Program.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+              <folding>
+                <marker date="1510956578212" expanded="true" signature="312:318" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bases/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+              <folding>
+                <marker date="1510956578247" expanded="true" signature="152:193" ph="/**...*/" />
+                <marker date="1510956578247" expanded="true" signature="267:472" ph="{...}" />
+                <marker date="1510956578247" expanded="true" signature="480:555" ph="/**...*/" />
+                <marker date="1510956578247" expanded="true" signature="620:769" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParticleEffect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/brain/background/ParticleEffect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="73" column="5" lean-forward="false" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+              <folding>
+                <marker date="1510956578287" expanded="true" signature="1162:1298" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Score.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/brain/background/Score.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Program.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Program.java">
+      <file leaf-file-name="ImageIO.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/javax/imageio/ImageIO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+            <state relative-caret-position="173">
+              <caret line="1300" column="0" lean-forward="false" selection-start-line="1300" selection-start-column="0" selection-end-line="1300" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -102,7 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/brain/background/ParticleEffect.java" />
         <option value="$PROJECT_DIR$/src/bases/Vector2D.java" />
         <option value="$PROJECT_DIR$/src/brain/background/ParticleEffect2.java" />
         <option value="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Circle.java" />
@@ -110,6 +210,9 @@
         <option value="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Square.java" />
         <option value="$PROJECT_DIR$/src/brain/FallingObjects/shapes/Triangle.java" />
         <option value="$PROJECT_DIR$/src/Program.java" />
+        <option value="$PROJECT_DIR$/src/bases/Utils.java" />
+        <option value="$PROJECT_DIR$/src/brain/background/ParticleEffect.java" />
+        <option value="$PROJECT_DIR$/src/brain/background/Score.java" />
       </list>
     </option>
   </component>
@@ -264,78 +367,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bases" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Where-your-brain_final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Where-your-brain_final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bases" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Where-your-brain_final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Where-your-brain_final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Where-your-brain_final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Where-your-brain_final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shape" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Where-your-brain_final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Where-your-brain_final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -622,7 +653,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21595599" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21595599" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -745,14 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/brain/background/Score.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/brain/background/LightEffect_Am3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -835,14 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/brain/background/ParticleEffect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="76" column="16" lean-forward="false" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/brain/FallingObjects/FallingObjects.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-376">
@@ -871,10 +886,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4">
           <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-          <folding>
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -963,48 +975,95 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-107">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1510974123244" expanded="false" signature="989:1248" ph="//..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/brain/FallingObjects/shapes/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-6">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <marker date="1510956578275" expanded="true" signature="2440:2512" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/brain/FallingObjects/shapes/Diamond.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="53" column="73" lean-forward="false" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
-          <folding />
+        <state relative-caret-position="680">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <marker date="1510956578276" expanded="true" signature="2357:2429" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/brain/FallingObjects/shapes/Square.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="57" column="31" lean-forward="false" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="544">
+          <caret line="58" column="9" lean-forward="false" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+          <folding>
+            <marker date="1510956578278" expanded="true" signature="2521:2594" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/brain/FallingObjects/shapes/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="51" column="74" lean-forward="false" selection-start-line="51" selection-start-column="74" selection-end-line="51" selection-end-column="74" />
-          <folding />
+        <state relative-caret-position="446">
+          <caret line="46" column="9" lean-forward="false" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+          <folding>
+            <marker date="1510956578281" expanded="true" signature="2525:2557" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Program.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        <state relative-caret-position="119">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <marker date="1510956578212" expanded="true" signature="312:318" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/javax/imageio/ImageIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="1300" column="0" lean-forward="false" selection-start-line="1300" selection-start-column="0" selection-end-line="1300" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bases/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <marker date="1510956578247" expanded="true" signature="152:193" ph="/**...*/" />
+            <marker date="1510956578247" expanded="true" signature="267:472" ph="{...}" />
+            <marker date="1510956578247" expanded="true" signature="480:555" ph="/**...*/" />
+            <marker date="1510956578247" expanded="true" signature="620:769" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/brain/background/ParticleEffect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="73" column="5" lean-forward="false" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding>
+            <marker date="1510956578287" expanded="true" signature="1162:1298" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/brain/background/Score.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
           <folding />
         </state>
       </provider>

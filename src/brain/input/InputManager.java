@@ -9,6 +9,7 @@ public class InputManager {
     public boolean jPressed;
     public boolean fPressed;
     public boolean spacePressed;
+    public boolean xPressed;
 
     public static final InputManager instance = new InputManager();
 
@@ -24,11 +25,12 @@ public class InputManager {
         if(e.getKeyCode() == KeyEvent.VK_F){
             fPressed = true;
         }
-
         if(e.getKeyCode() == KeyEvent.VK_SPACE){
-            spacePressed = false;
+            spacePressed = true;
         }
-
+        if(e.getKeyCode() == KeyEvent.VK_X){
+            xPressed =true;
+        }
     }
 
     public void keyReleased(KeyEvent e){
@@ -39,9 +41,11 @@ public class InputManager {
         if(e.getKeyCode() == KeyEvent.VK_F){
             fPressed = false;
         }
-
         if(e.getKeyCode() == KeyEvent.VK_SPACE){
-            spacePressed = true;
+//            spacePressed = false;
+        }
+        if(e.getKeyCode() == KeyEvent.VK_X){
+            xPressed =false;
         }
     }
 

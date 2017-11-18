@@ -1,6 +1,8 @@
 package brain.background;
 
+import bases.AudioUtils;
 import bases.GameObject;
+import brain.FallingObjects.FallingObjects;
 import com.sun.javafx.text.TextLine;
 
 import javax.swing.*;
@@ -10,14 +12,22 @@ import java.awt.image.BufferedImage;
 
 public class Score extends GameObject {
 
-    TextField textField = new TextField();
-
     public static int score;
+
+    @Override
+    public void render(Graphics g) {
+        g.setColor(Color.WHITE);//Moonshiner Sharp
+        g.setFont(new Font("Moonshiner",Font.BOLD,30));
+        g.drawString("Score: " +Score.score,290,40);
+
+    }
+
     public Score(){
         score = 0;
-        textField.setText("Hello");
     }
     public static void addScore(int num){
+        AudioUtils.play(AudioUtils.loadSound("audios/sfx_point.wav"));
         score+=num;
     }
+
 }

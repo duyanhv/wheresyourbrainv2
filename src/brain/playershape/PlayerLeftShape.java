@@ -1,8 +1,6 @@
 package brain.playershape;
 
-import bases.GameObject;
-import bases.ImageRenderer;
-import bases.Renderer;
+import bases.*;
 import bases.physics.BoxCollider;
 import bases.physics.PhysicsBody;
 import brain.FallingObjects.FallingObjects;
@@ -12,6 +10,7 @@ import brain.FallingObjects.shapes.Square;
 import brain.FallingObjects.shapes.Triangle;
 import brain.input.InputManager;
 
+import javax.sound.sampled.Clip;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 
@@ -53,14 +52,15 @@ public class PlayerLeftShape extends GameObject implements PhysicsBody {
 
     private void changeShape() {
         InputManager inputManager = InputManager.instance;
-
         if(inputManager.fPressed){
+            AudioUtils.play(AudioUtils.loadSound("audios/Sequence 01.wav"));
             if(count == listShape.size() - 1){
                 count = 0;
                 changeObject(count);
                 currentType = count;
                 inputManager.fPressed = false;
             }
+
             else if(count != listShape.size() - 1 ){
                 count++;
                 changeObject(count);
@@ -81,7 +81,8 @@ public class PlayerLeftShape extends GameObject implements PhysicsBody {
 
 
 
-    public void reset(){
+
+    private void reset(){
         count = 0;
     }
 

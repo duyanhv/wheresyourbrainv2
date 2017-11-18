@@ -9,7 +9,7 @@ import java.awt.geom.Rectangle2D;
 /**
  * Created by duyanh on 11/4/17.
  */
-public class ParticleEffect extends FallingObjects {
+public class ParticleEffect extends GameObject {
     public float x;
     public float y;
 
