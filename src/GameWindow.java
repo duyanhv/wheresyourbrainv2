@@ -6,6 +6,7 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.util.Scanner;
 
 /**
  * Created by duyanh on 10/31/17.
@@ -15,8 +16,9 @@ public class GameWindow extends JFrame {
 
     long lastTimeUpdate;
 
+    public boolean pauseGame;
+
     public GameWindow(){
-        this.setLocation(250,100);
         this.setSize(384,600);
         this.canvas = new GameCanvas();
         this.addWindowListener(new WindowAdapter() {
@@ -31,6 +33,7 @@ public class GameWindow extends JFrame {
         this.setVisible(true);
         this.setTitle("Where's your brain ?");
         lastTimeUpdate = System.nanoTime();
+
 
 
         this.addKeyListener(new KeyListener() {
@@ -51,15 +54,32 @@ public class GameWindow extends JFrame {
         });
     }
 
-    public void gameLoop(){
-        while(true){
-            long currentTime = System.nanoTime();
 
-            if(currentTime - lastTimeUpdate >= 17000000){
-                canvas.run();
-                canvas.render();
-                lastTimeUpdate = currentTime;
-            }
+
+
+    public void gameLoop(){
+//        while(pauseGame){
+//            long currentTime = System.nanoTime();
+//
+//            if(currentTime - lastTimeUpdate >= 17000000){
+//                canvas.run();
+//                canvas.render();
+//                lastTimeUpdate = currentTime;
+//            }
+//        }
+
+    do{
+        long currentTime = System.nanoTime();
+
+        if(currentTime - lastTimeUpdate >= 17000000){
+            canvas.run();
+            canvas.render();
+            lastTimeUpdate = currentTime;
+
+
         }
+    }while(true);
+
+
     }
 }

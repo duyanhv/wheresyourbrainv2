@@ -1,83 +1,46 @@
 package brain.FallingObjects.shapes;
 
 
-import bases.*;
+import bases.GameObject;
+import bases.ImageRenderer;
 import brain.FallingObjects.FallingObjects;
 import brain.background.ParticleEffect;
-import brain.background.ParticleEffect2;
 import brain.background.Score;
 import brain.playershape.PlayerLeftShape;
 import brain.playershape.PlayerRightShape;
 
 import java.awt.*;
-import java.util.Random;
 
 public class Square extends FallingObjects {
-    FrameCounter frameCounter = new FrameCounter(30);
+
     public final int type = 1;
 
     public Square(){
 
         super();
-//        this.renderer = new ImageRenderer("assets/shape/Rectangle.png");
-        this.renderer = new Animation(
-                Utils.loadImage("assets/shape/Rectangle.png"),
-                Utils.loadImage("assets/shape/Rectangle1.png"),
-                Utils.loadImage("assets/shape/Rectangle2.png"),
-                Utils.loadImage("assets/shape/Rectangle3.png"),
-                Utils.loadImage("assets/shape/Rectangle4.png"),
-                Utils.loadImage("assets/shape/Rectangle5.png"),
-                Utils.loadImage("assets/shape/Rectangle6.png")
-        );
+        this.renderer = new ImageRenderer("assets/shape/Rectangle.png");
     }
 
     @Override
     public void run() {
         super.run();
         collide();
-
-
     }
 
-    public void addParticle(){
-//        GameObject.add(new ParticleEffect2(this.position.x, this.position.y));
-<<<<<<< HEAD
-
-        for (float angle = -30; angle <= 360; angle += 30){
-            ParticleEffect2 pe = GameObject.recycle(ParticleEffect2.class);
-            pe.position.set(this.position);
-            Vector2D velocity = Vector2D.DOWN.rotate(angle).scale(-8);
-            pe.velocity.set(velocity);
-            pe.renderer = new Animation(
-                    Utils.loadImage("assets/images/bullets/Rectangle.png"),
-                    Utils.loadImage("assets/images/bullets/Rectangle1.png"),
-                    Utils.loadImage("assets/images/bullets/Rectangle2.png"),
-                    Utils.loadImage("assets/images/bullets/Rectangle3.png")
-
-            );
-            GameObject.add(pe);
-
-=======
-
-        for (float angle = -30; angle <= 360; angle += 30){
-            ParticleEffect2 pe = GameObject.recycle(ParticleEffect2.class);
-            pe.position.set(this.position);
-            Vector2D velocity = Vector2D.DOWN.rotate(angle).scale(-5);
-            pe.velocity.set(velocity);
-            pe.renderer = new Animation(
-                    Utils.loadImage(""),
-                    Utils.loadImage(""),
-                    Utils.loadImage(""),
-                    Utils.loadImage(""),
-                    Utils.loadImage(""),
-                    Utils.loadImage("")
-            );
-            GameObject.add(pe);
-
->>>>>>> da8a13064e5f0b92ec1a2d0fb0352eb2cc675db7
+    public void addParticle(boolean bool){
+        float dx,dy;
+        if(bool){
+            dx = (int) (Math.random()*5);
+            dy = (int) (Math.random()*5);
         }
+        else{
+            dx = (int) (Math.random()*-5);
+            dy = (int) (Math.random()*-5);
+        }
+        int size = (int) (Math.random()*12);
+        int life = (int) Math.random()*(120)+380;
 
-
+        GameObject.add(new ParticleEffect(position.x,position.y,dx,dy,size,life, Color.cyan));
     }
 
     public void collide(){
@@ -85,7 +48,9 @@ public class Square extends FallingObjects {
             if(this.hitBox.collideWith(PlayerLeftShape.boxCollider) && this.type == PlayerLeftShape.currentType){
                 Score.addScore(1);
 
-                addParticle();
+                addParticle(true);addParticle(false);addParticle(true);
+                addParticle(false);addParticle(true);addParticle(false);
+
                 GameObject.remove(this);
             }
         }
@@ -93,7 +58,9 @@ public class Square extends FallingObjects {
             if(this.hitBox.collideWith(PlayerRightShape.boxCollider) && this.type == PlayerRightShape.currentType ){
                 Score.addScore(1);
 
-                addParticle();
+                addParticle(true);addParticle(false);addParticle(true);
+                addParticle(false);addParticle(true);addParticle(false);
+
                 GameObject.remove(this);
             }
         }

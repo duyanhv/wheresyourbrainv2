@@ -1,19 +1,15 @@
 package brain.background;
 
 import bases.GameObject;
-import bases.Vector2D;
 import brain.FallingObjects.FallingObjects;
 
 import java.awt.*;
 import java.awt.geom.Rectangle2D;
-import java.util.Random;
 
 /**
  * Created by duyanh on 11/4/17.
  */
-public class ParticleEffect extends GameObject {
-    public Vector2D velocity;
-
+public class ParticleEffect extends FallingObjects {
     public float x;
     public float y;
 
@@ -27,10 +23,6 @@ public class ParticleEffect extends GameObject {
 
     public Color color;
 
-//    public boolean bool;
-
-
-
     public ParticleEffect(float x, float y, float dx, float dy, float size, float life, Color color) {
         this.x = x;
         this.y = y;
@@ -39,39 +31,9 @@ public class ParticleEffect extends GameObject {
         this.size = size;
         this.life = life;
         this.color = color;
-
-//        generateAngle(this.bool);
-
-
-    }
-    public ParticleEffect(){
-
-    }
-
-    public void generateAngle(boolean bool){
-        Random rdm = new Random();
-        if(bool) {
-
-
-
-
-//            dx = (int) ((Math.random())*5);
-//            dy = (int) ((Math.random())*5);
-//            dx =  ((rdm.nextInt(10) - 5));
-//            dy =  ((rdm.nextInt(10) - 5));
-        }
-//        else{
-//            dx =  ((rdm.nextInt(10) - 5));
-//            dy =  ((rdm.nextInt(10) - 5));
-//        }
     }
 
     public boolean update(){
-
-
-//        float dx,dy;
-
-
         x += dx;
 
         y += dy;
@@ -86,15 +48,10 @@ public class ParticleEffect extends GameObject {
 
     }
 
-
-
     @Override
     public void run() {
         super.run();
-
-        if(update()){
-            GameObject.remove(this);
-        }
+        update();
     }
 
     @Override
