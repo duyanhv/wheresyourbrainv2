@@ -14,10 +14,17 @@ public class ParticleEffect2 extends GameObject {
     public ParticleEffect2(){
         velocity = new Vector2D();
 //        this.renderer = new Animation(
+<<<<<<< HEAD
+//                Utils.loadImage("assets/images/bullets/circle.png"),
+//                Utils.loadImage("assets/images/bullets/circle2.png"),
+//                Utils.loadImage("assets/images/bullets/circle3.png"),
+//                Utils.loadImage("assets/images/bullets/circle4.png")
+=======
 //                Utils.loadImage("assets/images/bullets/blue.png"),
 //                Utils.loadImage("assets/images/bullets/cyan.png"),
 //                Utils.loadImage("assets/images/bullets/green.png"),
 //                Utils.loadImage("assets/images/bullets/green.png")
+>>>>>>> da8a13064e5f0b92ec1a2d0fb0352eb2cc675db7
 //        );
     }
 

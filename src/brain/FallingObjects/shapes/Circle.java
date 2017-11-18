@@ -49,6 +49,15 @@ public class Circle extends FallingObjects {
         for (float angle = -30; angle <= 360; angle += 30){
             ParticleEffect2 pe = GameObject.recycle(ParticleEffect2.class);
             pe.position.set(this.position);
+<<<<<<< HEAD
+            Vector2D velocity = Vector2D.DOWN.rotate(angle).scale(-8);
+            pe.velocity.set(velocity);
+            pe.renderer = new Animation(
+                    Utils.loadImage("assets/images/bullets/circle.png"),
+                    Utils.loadImage("assets/images/bullets/circle2.png"),
+                    Utils.loadImage("assets/images/bullets/circle3.png"),
+                    Utils.loadImage("assets/images/bullets/circle4.png")
+=======
             Vector2D velocity = Vector2D.DOWN.rotate(angle).scale(-5);
             pe.velocity.set(velocity);
             pe.renderer = new Animation(
@@ -60,8 +69,15 @@ public class Circle extends FallingObjects {
                     Utils.loadImage("")
             );
             GameObject.add(pe);
+>>>>>>> da8a13064e5f0b92ec1a2d0fb0352eb2cc675db7
 
+            );
+            GameObject.add(pe);
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> da8a13064e5f0b92ec1a2d0fb0352eb2cc675db7
         }
     }
 

@@ -38,6 +38,22 @@ public class Diamond extends FallingObjects {
     }
 
     public void addParticle(){
+<<<<<<< HEAD
+
+
+
+        for (float angle = -30; angle <= 360; angle += 30){
+            ParticleEffect2 pe = GameObject.recycle(ParticleEffect2.class);
+            pe.position.set(this.position);
+            Vector2D velocity = Vector2D.DOWN.rotate(angle).scale(-8);
+            pe.velocity.set(velocity);
+            pe.renderer = new Animation(
+                    Utils.loadImage("assets/images/bullets/Diamond.png"),
+                    Utils.loadImage("assets/images/bullets/Diamond1.png"),
+                    Utils.loadImage("assets/images/bullets/Diamond2.png"),
+                    Utils.loadImage("assets/images/bullets/Diamond3.png")
+
+=======
 
 
 
@@ -53,6 +69,7 @@ public class Diamond extends FallingObjects {
                     Utils.loadImage(""),
                     Utils.loadImage(""),
                     Utils.loadImage("")
+>>>>>>> da8a13064e5f0b92ec1a2d0fb0352eb2cc675db7
             );
             GameObject.add(pe);
 
